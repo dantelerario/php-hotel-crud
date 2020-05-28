@@ -16,11 +16,13 @@ if ($conn && $conn->connect_error) {
 //lista stanze homepage
 $sql = "SELECT * FROM `stanze`";
 $result = $conn->query($sql);
-var_dump($result);
+// var_dump($result);
 
 if ($result && $result->num_rows > 0) {
   while($row = $result->fetch_assoc()) {
-    var_dump($row);
+    $rooms = [];
+    // echo "ID . {$row['id']}   - Floor: {$row['floor']} <br>";
+    $rooms[] = $row;
   }
 } elseif ($result) {
   echo 'no record';
