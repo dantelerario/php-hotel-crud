@@ -115,8 +115,8 @@ console.log('OK!');
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\MAMP\htdocs\php-crud\src\js\main.js */"./src/js/main.js");
-module.exports = __webpack_require__(/*! D:\MAMP\htdocs\php-crud\src\css\main.scss */"./src/css/main.scss");
+__webpack_require__(/*! D:\MAMP\htdocs\php-hotel-crud\src\js\main.js */"./src/js/main.js");
+module.exports = __webpack_require__(/*! D:\MAMP\htdocs\php-hotel-crud\src\css\main.scss */"./src/css/main.scss");
 
 
 /***/ })
